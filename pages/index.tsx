@@ -1,10 +1,5 @@
 import Head from "next/head"
 import Image from "next/image"
-// import logoImage from "../public/logo-white.png";
-// import nft0 from "../public/0.png";
-// import nft9999 from "../public/9999.png";
-// import twitterImage from "../public/twitter-white.png";
-// import discordImage from "../public/discord-white.png";
 
 export default function Home() {
 
