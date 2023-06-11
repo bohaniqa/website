@@ -44,7 +44,6 @@ button,
   font-weight: 600;
   cursor: pointer;
   border: none;
-  pointer-events: none;
 }
 
 button:hover,
@@ -58,6 +57,7 @@ button:disabled,
 .button:disabled {
   cursor: not-allowed;
   background-color: #B4B6B8;
+  pointer-events: none;
 }
 
 .message {
