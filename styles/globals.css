@@ -44,6 +44,7 @@ button,
   font-weight: 600;
   cursor: pointer;
   border: none;
+  pointer-events: none;
 }
 
 button:hover,
