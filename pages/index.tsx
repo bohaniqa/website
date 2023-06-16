@@ -1,3 +1,4 @@
+import Countdown from "@/components/countdown";
 import Head from "next/head"
 import Image from "next/image"
 import { MouseEventHandler, useState } from "react"
@@ -42,6 +43,9 @@ export default function Home() {
     const [tab, setTab] = useState(true);
     const [profitability, setProfitability] = useState(0.0);
     const [rewards, setRewards] = useState(0.0);
+    const date = new Date(Date.UTC(2023, 5, 22, 18, 0, 0));
+    const hours = date.getHours();
+    const time = hours > 12 ? `${hours-12}PM` : `${hours}AM`;
     return (
     <>
         <Head>
@@ -74,9 +78,10 @@ export default function Home() {
                         <p className="subtext">
                             A new kind of mining network for the digital asset age.
                         </p>
-                        <p className="subtext bold">
-                            MINTING JUNE 2023
-                        </p>
+                        <div>
+                            <p className="subtext bold date">MINTING JUNE 22, {time}</p>
+                            <Countdown onTimeout={() => {}}></Countdown>
+                        </div>
                         <a className="button" href="#intro">
                             Learn More
                         </a>
@@ -128,7 +133,7 @@ export default function Home() {
                         </p>
                     </div>
                     <div className="image">
-                        <Image alt="NFT Miner #5001" src="/5000-web.png" width={540} height={540}/>
+                        <Image alt="NFT Miner #5001" src="/1-web.png" width={540} height={540}/>
                     </div>
                 </div>
             </div>
@@ -318,6 +323,9 @@ export default function Home() {
                     <h1 className="title">
                         AN OPEN SOURCE DIGITAL CURRENCY RUN BY A NETWORK OF NFT MINERS.
                     </h1>
+                    <p className="creator">
+                        <i className="subtext">Soltoshi</i>
+                    </p>
                     <footer className="subtext">
                         <div className="copyright">
                             <Image alt="Logo" src="/icon-web.svg" width={48} height={48}/>

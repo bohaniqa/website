@@ -315,6 +315,10 @@ nav a {
     text-align: center;
     padding: var(--padding) 0;
 }
+#footer .creator {
+    text-align: center;
+    font-size: 14px;
+}
 #footer footer {
     display: flex;
     flex-direction: row;
@@ -364,4 +368,13 @@ nav a {
         width: 100%;
         max-width: 540px;
     }
+}
+
+.countdown {
+    font-size: 14px;
+    color: var(--subtext);
+    font-family: Roboto, monospace;
+}
+.countdown .separator {
+    margin: 0px 8px;
 }
