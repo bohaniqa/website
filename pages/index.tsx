@@ -62,10 +62,10 @@ export default function Home() {
                     </a>
                     <ul className="menu">
                         <li>
-                            <a target="_blank" className="button disabled" href="https://mint.bohaniqa.com">Mint</a>
+                            <a target="_blank" className="button" href="https://mint.bohaniqa.com">Mint</a>
                         </li>
                         <li>
-                            <a target="_blank" className="button disabled" href="https://app.bohaniqa.com">Open App</a>
+                            <a target="_blank" className="button" href="https://app.bohaniqa.com">Open App</a>
                         </li>
                     </ul>
                 </nav>
@@ -299,7 +299,7 @@ export default function Home() {
                                 2. Connect the application.
                             </p>
                             <div className="action">
-                                <a className="button disabled" href="https://app.bohaniqa.com" target="_blank">Open App</a>
+                                <a className="button" href="https://app.bohaniqa.com" target="_blank">Open App</a>
                             </div>
                         </div>
                         <div className="step">
