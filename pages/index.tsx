@@ -291,7 +291,7 @@ export default function Home() {
                                 1. Mint an NFT miner.
                             </p>
                             <div className="action">
-                                <a className="button disabled" href="https://mint.bohaniqa.com" target="_blank">Mint</a>
+                                <a className="button" href="https://mint.bohaniqa.com" target="_blank">Mint</a>
                             </div>
                         </div>
                         <div className="step">
