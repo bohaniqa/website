@@ -99,13 +99,17 @@ export default function Home() {
                             WHAT IS BOHANIQA?
                         </h1>
                         <p className="subtext">
-                            A fairly distributed, limited supply currency for the Solana ecosystem.
+                            A decentralized, digital currency run by a network of NFT mining machines on the Solana blockchain.
+                            {/* A fairly distributed, limited supply currency for the Solana ecosystem. */}
                             <br/>
                             <br/>
-                            The network comprises <span className="medium">10K digital mining 
+                            <span className="medium">10K mining machines</span> operate the network and claim 
+                            their share of mining rewards ($BOQ) each time they <span className="medium">clock-in</span> for 
+                            a <span className="medium">shift</span> on the network.
+                            {/* The network comprises <span className="medium">10K digital mining 
                             machines</span> (NFTs) that claim 
                             their share of mining rewards (BOQ) each time they <span className="medium">clock-in</span> for 
-                            a <span className="medium">shift</span> on the network.
+                            a <span className="medium">shift</span> on the network. */}
                         </p>
                         <a href="#shift">
                             How does it work?
@@ -124,12 +128,27 @@ export default function Home() {
                             WHY BOHANIQA?
                         </h1>
                         <p className="subtext">
-                            The SOL token is an inflationary currency designed as a frequent medium 
+                            Bohaniqa is a deflationary currency mined from <span className="medium">ZERO</span>. It has been 
+                            designed as a native store of value for the Solana ecosystem (the 
+                            Bitcoin of Solana).
+                            <br/>
+                            <br/>
+                            <ul style={{
+                                marginLeft: "40px"
+                            }}>
+                                <li>Mine to Earn</li>
+                                <li>Easily tradable mining machines (NFTs)</li>
+                                <li>Open-source</li>
+                                <li>Transparent decentralized network</li>
+                                <li>Deflationary Supply</li>
+                                <li>Fair Launch (no pre-mine)</li>
+                            </ul>
+                            {/* The SOL token is an inflationary currency designed as a frequent medium 
                             of exchange and potential US security.
                             <br/>
                             <br/>
                             BOHANIQA is a <span className="medium">deflationary currency</span> native to the Solana blockchain that 
-                            can act as a store of value and never be deemed a security.
+                            can act as a store of value and never be deemed a security. */}
                         </p>
                     </div>
                     <div className="image">
@@ -191,7 +210,7 @@ export default function Home() {
                             <br/>
                             <br/>
                             Giving a max supply of 149.9B (14.9M/miner)
-                            over ~30 years. <span className="medium">However, unclaimed 
+                            over ~30 years. <span className="medium">Unclaimed 
                             tokens reduce the max supply in real-time 
                             and creates a deflationary currency.
                             </span>
@@ -210,13 +229,23 @@ export default function Home() {
                             COLLECTION
                         </h1>
                         <p className="subtext">
-                        A collection of 10K NFT mining machines with the authority to mine BOQ.
+                        A collection of 10K NFT mining machines with the ability to mine $BOQ.
                         <br/>
                         <br/>
                         The mining rewards increases with every shift to reward frequent miners and raise the inherent value of their NFT.
                         <br/>
                         <br/>
                         Each NFT has a unique design pattern and can be traded like any other digital collectable.
+                        <br/>
+                        <br/>
+                        <span className="note">
+                            The <a 
+                                target="_blank"
+                                title="Foundation Address"
+                                href="https://solscan.io/address/H3GhSvLTJCdxAjSdZrmq359ApGe61qQcikwSgJfjgHmF"
+                                >Bohaniqa Foundation</a> receives 0.5% of the 2.5% NFT royalty to buy and 
+                            burn $BOQ tokens.
+                        </span>
                         </p>
                     </div>
                     <div className="image">
