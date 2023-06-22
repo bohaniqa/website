@@ -79,8 +79,7 @@ export default function Home() {
                             A new kind of mining network for the digital asset age.
                         </p>
                         <div>
-                            <p className="subtext bold date">MINTING JUNE 22, {time}</p>
-                            <Countdown onTimeout={() => {}}></Countdown>
+                            <a target="_blank" className="bold date" href="https://mint.bohaniqa.com">MINT NOW</a>
                         </div>
                         <a className="button" href="#intro">
                             Learn More
