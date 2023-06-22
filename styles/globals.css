@@ -318,6 +318,7 @@ nav a {
 #footer .creator {
     text-align: center;
     font-size: 14px;
+    margin: 24px 0;
 }
 #footer footer {
     display: flex;
@@ -377,4 +378,17 @@ nav a {
 }
 .countdown .separator {
     margin: 0px 8px;
+}
+
+.account {
+    margin: 24px auto;
+    text-align: center;
+}
+.account .title {
+    padding: 0!important;
+    margin: 0 0 0;
+}
+.account .address {
+    cursor: pointer;
+    font-size: 14px;
 }

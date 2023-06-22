@@ -352,8 +352,26 @@ export default function Home() {
                     <h1 className="title">
                         AN OPEN SOURCE DIGITAL CURRENCY RUN BY A NETWORK OF NFT MINERS.
                     </h1>
+                    <div className="account">
+                        <p className="title">Smart Contract</p>
+                        <a target="_blank" title="Smart Contract" className="address" href="https://explorer.solana.com/address/J1FMqW26pFkvgqezcS58DEuKgVPsMcPr7P2SugrBBbqa">
+                           J1FMqW26pFkvgqezcS58DEuKgVPsMcPr7P2SugrBBbqa
+                        </a>
+                    </div>
+                    <div className="account">
+                        <p className="title">Foundation</p>
+                        <a target="_blank" title="Foundation" className="address" href="https://explorer.solana.com/address/H3GhSvLTJCdxAjSdZrmq359ApGe61qQcikwSgJfjgHmF">
+                            H3GhSvLTJCdxAjSdZrmq359ApGe61qQcikwSgJfjgHmF
+                        </a>
+                    </div>
+                    <div className="account">
+                        <p className="title">Token Mint</p>
+                        <a target="_blank" title="Token Mint" className="address" href="https://explorer.solana.com/address/FWzs6NG9xaiGkSTqzU6d4n8BDd8bUpf2uHBQ9iu4HkUo">
+                            FWzs6NG9xaiGkSTqzU6d4n8BDd8bUpf2uHBQ9iu4HkUo
+                        </a>
+                    </div>
                     <p className="creator">
-                        <i className="subtext">Soltoshi</i>
+                        <i className="subtext">Created by Soltoshi</i>
                     </p>
                     <footer className="subtext">
                         <div className="copyright">
