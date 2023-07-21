@@ -135,8 +135,7 @@ export default function Home() {
                             <ul style={{
                                 marginLeft: "40px"
                             }}>
-                                <li>Mine to Earn</li>
-                                <li>Easily tradable mining machines (NFTs)</li>
+                                <li>Digital mining machines (NFTs)</li>
                                 <li>Open-source</li>
                                 <li>Transparent decentralized network</li>
                                 <li>Deflationary Supply</li>
@@ -369,9 +368,6 @@ export default function Home() {
                             FWzs6NG9xaiGkSTqzU6d4n8BDd8bUpf2uHBQ9iu4HkUo
                         </a>
                     </div>
-                    <p className="creator">
-                        <i className="subtext">Created by Soltoshi</i>
-                    </p>
                     <footer className="subtext">
                         <div className="copyright">
                             <Image alt="Logo" src="/icon-web.svg" width={48} height={48}/>
