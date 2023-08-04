@@ -392,3 +392,11 @@ nav a {
     cursor: pointer;
     font-size: 14px;
 }
+
+.number-list {
+    margin: 0;
+    list-style: none;
+}
+.number-list > li {
+    margin-bottom: 24px;
+}

@@ -49,8 +49,8 @@ export default function Home() {
     return (
     <>
         <Head>
-        <title>BOHANIQA</title>
-        <meta name="description" content="A new kind of mining network for the digital asset age." />
+        <title>Bohaniqa - NFT-Powered Cryptocurrency Mining</title>
+        <meta name="description" content="Bohaniqa offers innovative cryptocurrency mining through NFTs. Join our sustainable and secure network to mine and collect unique NFTs while shaping the future of blockchain technology on Solana." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -73,17 +73,16 @@ export default function Home() {
                 <div className="view reverse">
                     <div className="content">
                         <h1 className="title">
-                            BOHANIQA
+                            Welcome to Bohaniqa - Redefining Cryptocurrency Mining with NFTs
                         </h1>
                         <p className="subtext">
-                            A new kind of mining network for the digital asset age.
+                            Are you ready to step into the future of cryptocurrency mining? 
                         </p>
-                        <div>
-                            <a target="_blank" className="bold date" href="https://mint.bohaniqa.com">MINT NOW</a>
-                        </div>
-                        <a className="button" href="#intro">
-                            Learn More
-                        </a>
+                        <p className="subtext">
+                            Our NFT-powered mining network allows you to mine, 
+                            collect, and trade unique digital assets while contributing to a more 
+                            sustainable and secure blockchain ecosystem.
+                        </p>
                     </div>
                     <div className="image">
                         <Image alt="NFT Miner #1" src="/0-web.png" width={540} height={540}/>
@@ -91,76 +90,50 @@ export default function Home() {
                 </div>
             </div>
 
-            <div id="intro" className="page container">
-                <div className="view">
-                    <div className="content">
-                        <h1 className="title">
-                            WHAT IS BOHANIQA?
-                        </h1>
-                        <p className="subtext">
-                            A decentralized, digital currency run by a network of NFT mining machines on the Solana blockchain.
-                            {/* A fairly distributed, limited supply currency for the Solana ecosystem. */}
-                            <br/>
-                            <br/>
-                            <span className="medium">10K mining machines</span> operate the network and claim 
-                            their share of mining rewards ($BOQ) each time they <span className="medium">clock-in</span> for 
-                            a <span className="medium">shift</span> on the network.
-                            {/* The network comprises <span className="medium">10K digital mining 
-                            machines</span> (NFTs) that claim 
-                            their share of mining rewards (BOQ) each time they <span className="medium">clock-in</span> for 
-                            a <span className="medium">shift</span> on the network. */}
-                        </p>
-                        <a href="#shift">
-                            How does it work?
-                        </a>
-                    </div>
-                    <div className="image">
-                        <Image alt="Network" src="/network-web.png" width={540} height={540}/>
-                    </div>
-                </div>
-            </div>
-
             <div id="why" className="page container">
-                <div className="view reverse">
+                <div className="view">
                     <div className="content">
-                        <h1 className="title">
-                            WHY BOHANIQA?
-                        </h1>
-                        <p className="subtext">
-                            Bohaniqa is a deflationary currency mined from <span className="medium">ZERO</span>. It has been 
-                            designed as a native store of value for the Solana ecosystem (the 
-                            Bitcoin of Solana).
-                            <br/>
-                            <br/>
-                            <ul style={{
-                                marginLeft: "40px"
-                            }}>
-                                <li>Digital mining machines (NFTs)</li>
-                                <li>Open-source</li>
-                                <li>Transparent decentralized network</li>
-                                <li>Deflationary Supply</li>
-                                <li>Fair Launch (no pre-mine)</li>
-                            </ul>
-                            {/* The SOL token is an inflationary currency designed as a frequent medium 
-                            of exchange and potential US security.
-                            <br/>
-                            <br/>
-                            BOHANIQA is a <span className="medium">deflationary currency</span> native to the Solana blockchain that 
-                            can act as a store of value and never be deemed a security. */}
-                        </p>
+                        <h2 className="title">
+                            Why Choose Bohaniqa?
+                        </h2>
+                        <ul className="number-list">
+                            <li>
+                                <b>1. NFT-Powered Mining: </b>
+                                Our unique approach allows you to mine Bohaniqa through a 
+                                decentralized network of Non-Fungible Tokens, enabling an 
+                                exclusive and dynamic mining ecosystem.
+                            </li>
+                            <li>
+                                <b>2. Deflationary Maximum Supply: </b>
+                                With a deflationary maximum supply, Bohaniqa becomes 
+                                a rare and valuable asset, protecting your investments from 
+                                excessive inflation.
+                            </li>
+                            <li>
+                                <b>3. Fair Launch: </b>
+                                The network has been launched with no pre-mine and 
+                                free NFT mints.
+                            </li>
+                            <li>
+                                <b>4. Ownership Empowerment: </b>
+                                Embrace true ownership of your assets with Bohaniqa. Each NFT 
+                                represents a distinctive piece of the cryptocurrency, connect 
+                                with fellow collectors that shape the future of Bohaniqa.
+                            </li>
+                        </ul>
                     </div>
                     <div className="image">
-                        <Image alt="NFT Miner #5001" src="/1-web.png" width={540} height={540}/>
+                        <Image alt="Network" src="/1-web.png" width={540} height={540}/>
                     </div>
                 </div>
             </div>
 
-            <div id="shift" className="page container">
+            <div id="how" className="page container">
                 <div className="view">
                     <div className="content">
-                        <h1 className="title">
-                            INFLATIONARY REWARDS, DEFLATIONARY SUPPLY.
-                        </h1>
+                        <h2 className="title">
+                            How Does Bohaniqa Work?
+                        </h2>
                         <p className="subtext">
                             The network runs in shifts of ~24 hour intervals and releases BOQ tokens 
                             to active miners. 
@@ -199,18 +172,17 @@ export default function Home() {
                                     = Maximum number of shifts.
                                 </span>
                             </span>
-                            <br/>
+                            {/* <br/>
                             <span className="note">
                                 Rewards start at <span className="medium">250 BOQ</span>/shift and 
                                 increase by <span className="medium">0.25 BOQ</span> with every 
                                 completed shift. <a href="#calculator">Profitability Calculator</a>
-                            </span>
+                            </span> */}
                             <br/>
                             <br/>
                             Giving a max supply of 149.9B (14.9M/miner)
                             over ~30 years. <span className="medium">Unclaimed 
-                            tokens reduce the max supply in real-time 
-                            and creates a deflationary currency.
+                            tokens reduce the max supply in real-time, creating a deflationary currency.
                             </span>
                         </p>
                     </div>
@@ -223,14 +195,16 @@ export default function Home() {
             <div id="collection" className="page container">
                 <div className="view reverse">
                     <div className="content">
-                        <h1 className="title">
-                            COLLECTION
-                        </h1>
+                        <h2 className="title">
+                            The Bohaniqa Collection
+                        </h2>
                         <p className="subtext">
-                        A collection of 10K NFT mining machines with the ability to mine $BOQ.
+                        A collection of 10K NFT mining machines with the authority to mine Bohaniqa.
                         <br/>
                         <br/>
-                        The mining rewards increases with every shift to reward frequent miners and raise the inherent value of their NFT.
+                            Mining rewards start at <span className="medium">250</span> and 
+                            increase by <span className="medium">0.25</span> with every completed 
+                            shift to reward frequent miners and raise the inherent value of their NFT.
                         <br/>
                         <br/>
                         Each NFT has a unique design pattern and can be traded like any other digital collectable.
@@ -241,8 +215,7 @@ export default function Home() {
                                 target="_blank"
                                 title="Foundation Address"
                                 href="https://solscan.io/address/H3GhSvLTJCdxAjSdZrmq359ApGe61qQcikwSgJfjgHmF"
-                                >Bohaniqa Foundation</a> receives 0.5% of the 2.5% NFT royalty to buy and 
-                            burn $BOQ tokens.
+                                >Bohaniqa Foundation</a> receives 0.5% of the 2.5% NFT royalty.
                         </span>
                         </p>
                     </div>
@@ -255,9 +228,9 @@ export default function Home() {
             <div id="calculator" className="page container">
                 <div className="view">
                     <div className="content">
-                        <h1 className="title">
-                            MINING PROFITABILITY CALCULATOR
-                        </h1>
+                        <h2 className="title">
+                            Mining Profitability Calculator
+                        </h2>
                         <p className="subtext">
                             {tab 
                                 ? "Calculate the earning potential of your NFT miner."
@@ -277,8 +250,8 @@ export default function Home() {
                                 <span className="rate-label subtext"> / day</span>
                             </h2>
                             <label>
-                                BOQ Price ($)
-                                <input className="dollar" onChange={() => calculateProfitability(setProfitability)} type="number" placeholder="$1.0" min="0.00" step={0.1}></input>
+                                Token Price
+                                <input className="dollar" onChange={() => calculateProfitability(setProfitability)} type="number" placeholder="$0.0" min="0.00" step={0.1}></input>
                             </label>
                             {/* <label>
                                 Number of Miners
@@ -310,9 +283,13 @@ export default function Home() {
             <div id="get-started" className="page container">
                 <div className="view reverse">
                     <div className="content">
-                        <h1 className="title">
-                            GET STARTED
-                        </h1>
+                        <h2 className="title">
+                            Secure Your Future with Bohaniqa - Get Started
+                        </h2>
+                        <p>
+                            Start your journey into the future of cryptocurrency mining by embracing 
+                            the power of NFTs and the deflationary model with Bohaniqa. 
+                        </p>
                         <div className="step">
                             <p className="subtext">
                                 1. Mint an NFT miner.
@@ -347,9 +324,9 @@ export default function Home() {
 
             <div id="footer">
                 <div className="container">
-                    <h1 className="title">
-                        AN OPEN SOURCE DIGITAL CURRENCY RUN BY A NETWORK OF NFT MINERS.
-                    </h1>
+                    <h2 className="title">
+                        Join the Bohaniqa Community Today.
+                    </h2>
                     <div className="account">
                         <p className="title">Smart Contract</p>
                         <a target="_blank" title="Smart Contract" className="address" href="https://explorer.solana.com/address/J1FMqW26pFkvgqezcS58DEuKgVPsMcPr7P2SugrBBbqa">
@@ -372,8 +349,8 @@ export default function Home() {
                         <div className="copyright">
                             <Image alt="Logo" src="/icon-web.svg" width={48} height={48}/>
                             <div className="text">
-                                <span className="name">BOHANIQA</span>
-                                <span className="year">© 2023</span>
+                                <span className="name">Copyright © 2023 Bohaniqa</span>
+                                <span className="year">All rights reserved.</span>
                             </div>
                         </div>
                         <div className="socials">
